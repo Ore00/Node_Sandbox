@@ -1,0 +1,78 @@
+/****** Main Styling ******/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9fafb;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #2574A9;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-weight: 700;
+  color: #2574A9;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 10px 0;
+  font-weight: 400;
+}
+
+.status-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
+
+code {
+  background-color: #f4f4f4;
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  color: #e74c3c;
+}
+
+a {
+  color: #2574A9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
