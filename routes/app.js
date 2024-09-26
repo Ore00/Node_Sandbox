@@ -9,6 +9,10 @@ module.exports = function (app) {
     res.sendFile(process.cwd() + "/views/index.html");
   });
 
+  app.get("/uploads", function (req, res) {
+    res.sendFile(process.cwd() + "/views/uploads.html");
+  });
+
   app.get("/assignedUsers", function (req, res) {
     const randomlyAssigedUsers = assignUsers("./uploads/input.csv", "\n");
     res.json({ assigments: randomlyAssigedUsers });

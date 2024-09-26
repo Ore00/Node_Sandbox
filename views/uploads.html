@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload - Node Sandbox</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link href="/public/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h1>File Upload</h1>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <h2>Upload Your File</h2>
+        <p>Please choose a file to upload and click the button below to submit.</p>
+
+        <div class="upload-section">
+          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+            <input id="inputfield" type="file" name="upfile" required />
+            <button id="button" type="submit">Upload</button>
+          </form>
+        </div>
+
+        <div class="output-section">
+          <h4 id="output"></h4>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p>&copy; 2024 Node Sandbox. All rights reserved.</p>
+      </div>
+    </div>
+
+    <script src="public/scripts.js"></script>
+  </body>
+</html>
