@@ -84,7 +84,7 @@ suite("Unit Tests", () => {
             done();
         });
 
-        test.only("Stack is rejected when either value undefined", function (done) {
+        test("Stack is rejected when either value undefined", function (done) {
             let width = 2, height = 50, length = 15, mass = 15;
 
             assert.equal(sort(width, height, length), "REJECTED");
