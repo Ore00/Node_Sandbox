@@ -115,6 +115,31 @@ If you have suggestions or improvements, feel free to fork the repository and su
 
 > Please follow conventional commits and write clear commit messages.
 
+### Commit Format:
+
+```
+type(scope?): description
+
+body? (optional)
+
+BREAKING CHANGE: explanation (if needed)
+```
+
+### Examples:
+
+* `feat(auth): add login via OAuth`
+* `fix: resolve layout crash on Safari`
+* `chore: update dependencies`
+* `refactor(db): rename user model`
+* `BREAKING CHANGE: drop support for Node 14`
+
+### Release Types:
+
+| Type               | Release Level |
+| ------------------ | ------------- |
+| `feat:`            | Minor         |
+| `fix:`             | Patch         |
+| `BREAKING CHANGE:` | Major         |
 ---
 
 ## License
